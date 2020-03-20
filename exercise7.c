@@ -6,7 +6,7 @@ int main (int argc, char *argv[]){
 	double bug_rate = 1.2;
 	printf("You have %d bugs at the imaginary rate of %f.\n", bugs, bug_rate);
 
-	long universe_of_defects = 1024L * 1024L * 1024L * 1024L * 1024L * 1024L;
+	unsigned long universe_of_defects = 1024L * 1024L * 1024L * 1024L * 1024L * 1024L;
 //if you make bigger the long amount it will give you a warning beacause exceeds the long size
 // the maximum size of a long its 2147483647
 printf("The entire universe has %ld bugs.\n", universe_of_defects);
